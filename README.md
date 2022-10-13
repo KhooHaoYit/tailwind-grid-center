@@ -37,7 +37,7 @@ module.exports = {
 Use the `grid-cols-center-{n}` utilities to specify the amount of columns in a grid:
 
 ```html
-<div class="grid grid-cols-center-3 text-cemter">
+<div class="grid grid-cols-center-3 text-center">
   <div>Item 1</div>
   <div>Item 2</div>
 </div>
