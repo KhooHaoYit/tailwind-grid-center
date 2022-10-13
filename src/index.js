@@ -30,7 +30,7 @@ module.exports = plugin.withOptions((options = {}) => {
       },
     }, { values });
   };
-}, {
+}, () => ({
   theme: {
     gridTemplateColumnsCenter: {
       1: '1',
@@ -47,4 +47,4 @@ module.exports = plugin.withOptions((options = {}) => {
       12: '12',
     },
   },
-});
+}));
