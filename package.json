@@ -1,6 +1,6 @@
 {
   "name": "@khoohaoyit/tailwind-grid-center",
-  "version": "0.0.3",
+  "version": "0.0.4-alpha",
   "description": "A tailwind plugin that helps centering the last row on a grid",
   "repository": "https://github.com/khoohaoyit/tailwind-grid-center",
   "main": "src/index.js",
