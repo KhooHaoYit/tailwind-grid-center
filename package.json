@@ -4,7 +4,11 @@
   "description": "A tailwind plugin that helps centering the last row on a grid",
   "repository": "https://github.com/khoohaoyit/tailwind-grid-center",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "conc --kill-others npm:dev:*",
+    "dev:http-server": "npx http-server -c-1 ./pages",
+    "dev:tailwind": "npx tailwindcss -i ./pages/tailwind.css -o ./pages/index.css --watch"
+  },
   "keywords": [
     "tailwind",
     "plugin",
@@ -15,6 +19,8 @@
   "author": "KhooHaoYit",
   "license": "MIT",
   "devDependencies": {
+    "concurrently": "^7.4.0",
+    "http-server": "^14.1.1",
     "tailwindcss": "^3.1.8"
   }
 }
