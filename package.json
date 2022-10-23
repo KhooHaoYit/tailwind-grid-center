@@ -21,7 +21,7 @@
   "devDependencies": {
     "concurrently": "^7.4.0",
     "http-server": "^14.1.1",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.2"
   },
   "peerDependencies": {
     "tailwindcss": ">=3.0.0"
